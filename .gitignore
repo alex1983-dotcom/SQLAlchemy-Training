@@ -29,5 +29,16 @@ venv/
 htmlcov/
 .coverage
 .pytest_cache/
+# --- Obsidian
+# Игнорируем всё внутри этой папки, но саму папку оставляем открытой для исключений
+Obsidian_SQLAlchemy_Training/.obsidian/*
 
+# Разрешаем конкретные подпапки (путь должен начинаться так же!)
+!Obsidian_SQLAlchemy_Training/.obsidian/plugins/
+!Obsidian_SQLAlchemy_Training/.obsidian/themes/
+!Obsidian_SQLAlchemy_Training/.obsidian/snippets/
 
+# Игнорируем шумные файлы
+Obsidian_SQLAlchemy_Training/.obsidian/workspace.json
+Obsidian_SQLAlchemy_Training/.obsidian/workspace-mobile.json
+Obsidian_SQLAlchemy_Training/.obsidian/cache/
