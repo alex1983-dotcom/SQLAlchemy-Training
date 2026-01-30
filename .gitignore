@@ -16,7 +16,6 @@ venv/
 # --- Исследовательская работа (Jupyter) ---
 .ipynb_checkpoints
 */.ipynb_checkpoints/*
-# Если не хочешь сохранять тяжелые выводы ячеек в git (опционально)
 # .ipynb
 
 # --- IDE (PyCharm / VS Code) ---
