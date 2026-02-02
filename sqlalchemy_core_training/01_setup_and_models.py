@@ -23,3 +23,5 @@ print("\n Таблицы в базе данных:")
 for table in tables:
     print(f" - {table}")
 
+
+def
